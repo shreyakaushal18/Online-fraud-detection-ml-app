@@ -16,4 +16,23 @@ Detection : ​
 - Jupyter Notebook
 - Pandas
 - NumPy
-- Matplotlib​
+- Matplotlib
+## Dataset
+This project uses the **Online Payments Fraud Detection Dataset** from Kaggle.
+
+- Source: [Online Payments Fraud Detection Dataset](https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset)
+
+### Dataset Features
+- `step` – time step of the transaction
+- `type` – type of transaction
+- `amount` – transaction amount
+- `nameOrig` – sender account
+- `oldbalanceOrg` – sender’s old balance
+- `newbalanceOrig` – sender’s new balance
+- `nameDest` – receiver account
+- `oldbalanceDest` – receiver’s old balance
+- `newbalanceDest` – receiver’s new balance
+- `isFraud` – fraud label
+- `isFlaggedFraud` – flagged suspicious transaction
+
+The dataset is used for educational and project purposes only.
